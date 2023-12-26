@@ -4,16 +4,37 @@
 
 }
 html{
-    background-image: url("./img/python-logo.jpg");
-    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
+    color: azure;
     margin: 10px 20px;
     padding: 10px 40px;
 }
+.background{
+    background-image: url("https://img.ixbt.site/live/topics/preview/00/04/43/61/4c83e99030.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.blur{
+    background: rgba(246, 243, 243, 0.2); // Make sure this color has an opacity of less than 1
+    backdrop-filter: blur(8px); // This be the blur
+    height: 100vh;
+    width: 50%;
+  
+}
 h1{
     text-align: center;
-    font-size: larger;
+    font-size:xx-large;
+    color: gold;
+}
+h2{
+    text-align: left;
+    font-size: x-large;
+    color: antiquewhite;
+}
+.About{
+    margin: 20px;
 }
 p{
     margin: 10px 30px;
