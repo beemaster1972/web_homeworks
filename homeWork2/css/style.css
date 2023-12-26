@@ -4,25 +4,40 @@
 
 }
 html{
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: azure;
     margin: 10px 20px;
-    padding: 10px 40px;
+    padding: 10px 20;
 }
-.background{
+.background-image {
+    /* position: fixed; */
+    /* left: 0;
+    right: 0; */
+    z-index: 1;
+    /* display: block; */
     background-image: url("https://img.ixbt.site/live/topics/preview/00/04/43/61/4c83e99030.jpg");
     background-size: cover;
-    height: 100vh;
     width: 100%;
-}
-.blur{
-    background: rgba(246, 243, 243, 0.2); // Make sure this color has an opacity of less than 1
-    backdrop-filter: blur(8px); // This be the blur
     height: 100vh;
-    width: 50%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
   
-}
+  .content {
+    /* position: fixed;
+    left: 0;
+    right: 0; */
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+    filter: blur(0px);
+  }
 h1{
     text-align: center;
     font-size:xx-large;
