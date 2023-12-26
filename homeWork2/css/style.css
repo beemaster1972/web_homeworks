@@ -4,51 +4,52 @@
 
 }
 html{
-    
+    background-image: url("https://img.ixbt.site/live/topics/preview/00/04/43/61/4c83e99030.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+    backdrop-filter: blur(8px);  
+    z-index: 1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: azure;
     margin: 10px 20px;
     padding: 10px 20;
 }
-.background-image {
-    /* position: fixed; */
-    /* left: 0;
-    right: 0; */
+/* .background-image {
+    position: fixed;
+    left: 0; 
+    right: 0; 
     z-index: 1;
-    /* display: block; */
-    background-image: url("https://img.ixbt.site/live/topics/preview/00/04/43/61/4c83e99030.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-    backdrop-filter: blur(5px);
+    display: block; 
+ 
   }
   
   .content {
-    /* position: fixed;
+    position: fixed;
     left: 0;
-    right: 0; */
+    right: 0;
     z-index: 9999;
-    margin-left: 20px;
-    margin-right: 20px;
-    filter: blur(0px);
-  }
+  } */
 h1{
+    z-index: 100;
     text-align: center;
     font-size:xx-large;
     color: gold;
 }
 h2{
+    z-index: 200;
     text-align: left;
     font-size: x-large;
     color: antiquewhite;
 }
 .About{
+    z-index: 300;
     margin: 20px;
 }
 p{
